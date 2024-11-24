@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build a Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <h1 id="title">INFORMATION FORM</h1>
+    <p id="description">This form has been created to get to know you better.</p>
+    <form action="" id="survey-form">
+        <div class="form-group">
+            <label id="name-label" for="name"> Enter Your Name </label> <br><br>
+            <input id="name" type="text" required placeholder="enter your name">
+        </div>
+        <div class="form-group">
+            <label id="email-label" for="email">Enter Your Email </label> <br><br>
+            <input id="email" type="email" required placeholder="enter your email">
+        </div>
+        <div class="form-group">
+            <label id="number-label" for="number">Your Age </label><br><br>
+            <input id="number" type="number" min="10" max="100" placeholder="enter your age">
+        </div>
+        <div class="form-group">
+            <p>  Gender </p>
+            <label for=""><input type="radio" name="account-type" checked id="female" class="inp-radio" value="female">Female </label> <br><br>
+            <label for=""><input type="radio" name="account-type" id="male" class="inp-radio" value="male"> Male </label> <br><br>
+            <label for=""> <input type="radio" name="account-type" id="other" class="inp-radio" value="other"> Other </label> 
+        </div>
+        
+        <div class="form-group"> 
+            <p> Select Your Education Level  </p>
+            <select id="dropdown" required> 
+                <option value="highschool">High School</option>
+                <option value="undergraduate">Undergraduate</option>
+                <option value="graduate">Graduate</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="form-group"> 
+            <p>Select Your Hobbies</p> 
+            <label>
+                <input type="checkbox" name="hobby" class="inp-checkbox" id="music" value="listen to music">
+                Listen to music 
+            </label><br>
+            <label> 
+                <input type="checkbox" name="hobby" class="inp-checkbox" id="book" value="read a book">
+                Read a book
+            </label> <br>
+            <label> 
+                <input type="checkbox" name="hobby" class="inp-checkbox" id="swim" value="swimming in the pool">
+                Swimming in the pool 
+            </label><br>
+            <label> 
+                <input type="checkbox" name="hobby" class="inp-checkbox" id="movies" value="watching movies">
+                Watching movies 
+            </label>
+        </div>
+        <div class="form-group"> 
+            <p>Please introduce yourself </p>
+            <textarea id="bio" name="bio" rows="4" cols="30" placeholder="Hello I am..."></textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit" id="submit" class="button-submit">SUBMIT</button>
+        </div>
+    </form> 
+</body>
+</html>
