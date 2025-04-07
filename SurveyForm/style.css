@@ -1,0 +1,74 @@
+h1{
+    margin: 1em auto;
+    text-align: center;
+    color:blueviolet;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+
+}
+body{
+    background-color: rgb(241, 225, 225);
+}
+#description{
+    text-align:center;
+    color:rgb(106, 42, 165);
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+form{
+    margin: 25px 100px 0 100px;
+    background-color: rgb(132, 169, 204);
+    border-radius: 1cm;
+    padding: 0 25px 0 25px;
+    
+}
+
+div {
+    display: block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.form-group {
+    margin: 0 0.50rem 1.50rem 0.50rem;
+    /* padding: 0.50rem;  */
+    padding: 5px 25px 0 25px;
+}
+
+input{
+    border: 2px solid rgb(151, 105, 211);
+    border-radius: 8px;
+    padding: 10px;
+}
+#name{
+    width: 100%;
+}
+#email{
+    width:100%;
+}
+
+#bio{
+    border: 2px solid rgb(151, 105, 211);
+    border-radius: 8px;
+    padding: 5px;
+    
+}
+#submit{
+    background-color: rgb(124, 82, 223);
+    border: 3px solid rgb(151, 105, 211);
+    border-radius: 20px;
+    padding:  10px;
+    width: 100%;
+    margin: 0 0 25px 0;
+    
+}
+#number{
+    width:100%;
+}
+#dropdown{
+    border: 2px solid rgb(151, 105, 211);
+    border-radius: 8px;
+    width:102%;
+    padding: 10px;
+}
+#bio{
+    width: 100%;
+}
